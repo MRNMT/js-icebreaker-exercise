@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-questLog.unshift("Rescue the Blacksmith's Cat")//add the quest at the beggining
-console.log(questLog)
-
-console.log("The removed quest is: "+questLog.shift())//removes first quest
-console.log(questLog)
-
-console.log("The removed quest is: "+questLog.splice(1,1))//removes 1 quest from position 1
-console.log(questLog)
-
-questLog.splice(1,0, "Slay the Dragon of Mount Doom");//adds 1 quest from position 1
-console.log(questLog)
-
-console.log(questLog.join(' | '))
-
-=======
-
 const questLog = [
   "Collect 10 Firefly Wings",
   "Defeat the Goblin King",
@@ -37,6 +20,17 @@ let completedQuest = questLog.pop();
 console.log("Completed quest:", completedQuest);
 console.log("Updated quest log:", questLog);
 
+questLog.unshift("Rescue the Blacksmith's Cat")//add the quest at the beggining
+console.log(questLog)
 
+console.log("The removed quest is: "+questLog.shift())//removes first quest
+console.log(questLog)
 
->>>>>>> 4c8f6d3e9cfc5575d99c22d138c1c3aa18067661
+console.log("The removed quest is: "+questLog.splice(1,1))//removes 1 quest from position 1
+console.log(questLog)
+
+questLog.splice(1,0, "Slay the Dragon of Mount Doom");//adds 1 quest from position 1
+console.log(questLog)
+
+console.log(questLog.join(' | '))
+
