@@ -1,16 +1,11 @@
-// Scenario 1: Favorite movie
 let favoriteMovie = "Interstellar";
 console.log("My favorite movie is " + favoriteMovie + ".");
 
-// Scenario 2: Number of siblings
 let numberOfSiblings = 2;
 console.log("I have " + numberOfSiblings + " siblings.");
 
-// Scenario 3: Have seen Inception
 let hasSeenInception = true;
 console.log("Have I seen Inception? " + hasSeenInception);
-
-// Scenario 4: Dream vacation
 let dreamVacation = {
   country: "Japan",
   city: "Kyoto",
@@ -18,14 +13,13 @@ let dreamVacation = {
 };
 console.log("My dream vacation is to " + dreamVacation.city + ", " + dreamVacation.country + " to go " + dreamVacation.activity + ".");
  
-
 const favfood = ["pizza", "fries", "donuts"];
 const discountCode = "";
 const PictureURL = "";
 let galasticStarID = 887323456678095872878435764875n;
 
-console.log("For my favfood variable: the values are inside an array and double quotes because they are a list of food that falls under one variable and they are string values."+
+console.log("My top 3 favourate foods are "+favfood[0], favfood[1], +'and'+ favfood[2] +
     "For discountCode: its empty string because there is not one and codes may have charcters an dnumbers mixed."+
     "PictureURL: This string value is also not available"+
-    "galasticStarID: I put n at the end show that the number is continuing because it is just so long."
+    "galasticStarID: "+galasticStarID+" I put n at the end show that the number is continuing because it is just so long."
 )
